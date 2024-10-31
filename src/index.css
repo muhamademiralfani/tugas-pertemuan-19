@@ -1,0 +1,32 @@
+.chat-message-cstm {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.chat-message-cstm:nth-last-child(2) {
+  margin-bottom: 100px;
+}
+
+.rounded-user-cstm {
+  border-radius: 10px 10px 0px 10px;
+}
+
+.rounded-ai-cstm {
+  border-radius: 10px 10px 10px 0px;
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: conic-gradient(#0000 10%, #0d6efd);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+  animation: spinner-zp9dbg 1s infinite linear;
+}
+
+@keyframes spinner-zp9dbg {
+  to {
+    transform: rotate(1turn);
+  }
+}
